@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>5e2e5f09-1b50-4f95-8e12-671678b347c0</Guid>
+    <Name>WOTC_ElementalHeavyThrowers</Name>
+    <Description>WOTC_ElementalHeavyThrowers, adds some variations of the Heavy Flamer/ Hellfire Projector.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTC_ElementalHeavyThrowers</AssemblyName>
+    <RootNamespace>WOTC_ElementalHeavyThrowers</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\WOTC_ElementalHeavyThrowers\" />
+    <Folder Include="Src\WOTC_ElementalHeavyThrowers\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPGOverhaulExperimentalItems.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\PerkContent_EHW_Cryo.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILib_EHW.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WP_HeavyThrower_Acid.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WP_HeavyThrower_Cryo.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WP_HeavyThrower_Fire.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\WP_HeavyThrower_Poison.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComInfiltration.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\WOTC_ElementalHeavyThrowers\Classes\X2Ability_ElementalHeavyWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_ElementalHeavyThrowers\Classes\X2DownloadableContentInfo_WOTC_ElementalHeavyThrowers.uc" />
+    <Content Include="Src\WOTC_ElementalHeavyThrowers\Classes\X2Item_ElementalHeavyWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_ElementalHeavyThrowers\Classes\X2Condition_FineControl.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_ElementalHeavyThrowers\Classes\X2Effect_ApplyAcidToWorld_Cone.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTC_ElementalHeavyThrowers\Classes\X2Effect_DLC_3Rainmaker_RustyRainmakerExtension.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
